@@ -1,3 +1,8 @@
+"""Program to Convert Numbers to Words 
+    ***example***
+Number :-2150
+o/p:-Two Thousand One Hundred Fifty"""
+
 def number_to_words(num):
     if num == 0:
         return "Zero"
@@ -68,5 +73,5 @@ def number_to_words(num):
 
 # Example usage
 n=int(input('enter the number :'))
-print(number_to_words(n)) #output is One Hundred
+print(number_to_words(n))
 
